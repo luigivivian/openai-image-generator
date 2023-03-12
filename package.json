@@ -1,0 +1,22 @@
+{
+  "name": "openai-image",
+  "version": "1.0.0",
+  "description": "powerfull image generator using openai api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luigivivian/openai-image-generator.git"
+  },
+  "keywords": [
+    "open-ai-image-generator"
+  ],
+  "author": "luigidev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luigivivian/openai-image-generator/issues"
+  },
+  "homepage": "https://github.com/luigivivian/openai-image-generator#readme"
+}
