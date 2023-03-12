@@ -4,7 +4,8 @@
   "description": "powerfull image generator using openai api",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "dev": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,14 @@
   "bugs": {
     "url": "https://github.com/luigivivian/openai-image-generator/issues"
   },
-  "homepage": "https://github.com/luigivivian/openai-image-generator#readme"
+  "homepage": "https://github.com/luigivivian/openai-image-generator#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "openai": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+
 }
